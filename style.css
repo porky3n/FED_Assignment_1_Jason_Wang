@@ -1,0 +1,153 @@
+/*Home Page CSS*/
+
+/*Header*/
+
+.default-heading {
+    text-align: center;
+}
+
+.default-heading h1 {
+  margin-top: -20px; 
+}
+
+.default-heading h2 {
+  text-align: left; 
+  margin: 0; 
+}
+
+.default-heading img {
+  width: 160px; 
+  height: 160px; 
+}
+
+header {
+  background-color: rgb(31, 81, 167);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin:0;
+  display: flex; 
+  justify-content: center;
+}
+
+h1 {
+    color: #3498db; 
+}
+
+ul.pages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.pages li {
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+ul.pages li:last-child {
+    margin-right: 0; 
+}
+
+ul.pages li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: block;
+}
+
+/*Footer*/
+.footer-container {
+  background-color: rgb(31, 81, 167);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-tabs {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer-pages {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-pages a {
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.community,
+.sponsored,
+.footer-logo {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.community a {
+  color: white;
+  display: block;
+}
+
+.contact-info {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 15px;
+}
+
+.sponsored img {
+  margin-right: 8px;
+}
+
+.footer-logo img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  padding: 10px;
+}
+
+.copyright p {
+  margin: 5px 0;
+  color: white;
+}
