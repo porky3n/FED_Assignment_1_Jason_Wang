@@ -452,6 +452,20 @@ form input[type="submit"] {
     z-index: 1000; 
 }
 
+.error-message {
+  display: none;
+    background-color: rgb(255, 99, 99);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    z-index: 1000; 
+}
+
 /*Filter Panel*/
 
 .filter-box {
