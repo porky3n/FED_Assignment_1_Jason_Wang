@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('close-cart').addEventListener('click', function () {
       document.getElementById('cart-popup').style.display = 'none';
     });
-  });
 });
+
 
 /*Hidden Details*/
 
