@@ -194,18 +194,15 @@ ul.pages li a {
     color: black;
   }
   
-  
   /*Our Focus*/
   .our-focus-box {
     display: flex;
     justify-content: space-between;
-    
     margin-top: 20px;
     background-color: #ffffff;
     max-width: 800px; 
     margin: 0 auto; 
     border-radius: 8px
-    
   }
   
   .our-focus-subbox {
@@ -215,9 +212,8 @@ ul.pages li a {
     text-align: center;
     width: 80%; 
     border-radius: 8px
-    
   }
-  
+
   .focus-image-box {
     width: 250px;
     height: 250px; 
@@ -260,12 +256,10 @@ ul.pages li a {
     font-size: 20px; 
   }
   
-  
   .founder-image-box img {
     width: 100%;
     height: auto;
   }
-
 
 /*Coaches*/
 
@@ -277,7 +271,6 @@ ul.pages li a {
     max-width: 800px; 
     margin: 0 auto; 
     border-radius: 15px
-    
   }
 
 .our-coaches-subbox {
@@ -295,7 +288,6 @@ ul.pages li a {
 }
 
 .our-coaches-subbox li{
-    
     font-size:20px;
 }
 
@@ -309,14 +301,12 @@ ul.pages li a {
     margin: 0 auto; 
 }
 
-
 .image-box {
     
     width: 90.8%; 
     background-color: #ecf0f1;
     box-sizing: border-box; 
 }
-
 
 .image-box2 {
     border: 2px solid rgb(103, 103, 103);
@@ -333,7 +323,6 @@ ul.pages li a {
   {
     text-align: center;
   }
-  
   
 .container {
       display: flex;
@@ -355,7 +344,6 @@ ul.pages li a {
       margin: 10px;  
 }
        
-  
 .box {
       flex-basis: calc(33.33% - 20px);
       margin: 10px;
@@ -414,14 +402,12 @@ ul.pages li a {
     text-align: center;
   }
   
-  
 .form-centralise {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75vh;
 }
-  
   
 form {
     display: grid;
@@ -433,7 +419,6 @@ form {
     width: 50%;
     border-radius: 10px
 }
-  
   
 form input[type="submit"] {
     grid-column: span 2;
@@ -513,13 +498,11 @@ form input[type="submit"] {
 /*Bowling Ball Display*/
 
 body {
-  
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(255, 255, 255); 
-    
 }
 
 .container2 {
@@ -528,7 +511,6 @@ body {
   grid-gap: 20px;
   padding: 20px;
   box-sizing: border-box;
-  
 }
 
 .box2 {
@@ -538,12 +520,13 @@ body {
   box-sizing: border-box;
   position: relative;
   border-radius: 15px;
-  
 }
 
 .box2 img{
   margin-bottom: 10px;
 }
+
+/*Hidden Additional Ball Info Box*/
 
 .ball-info {
   display: none;
