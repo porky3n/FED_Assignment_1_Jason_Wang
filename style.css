@@ -822,7 +822,15 @@ body {
     grid-template-columns: 1fr; 
     justify-items: center;
     width: 85%; 
-    margin: 0 auto; 
+    margin: 0 auto;
+  }
+  
+  .coaching-levels-subbox{
+    text-align: left;
+  }
+
+  .coaching-levels-heading{
+    text-align: center;
   }
 
   /*Sign Up Form*/
