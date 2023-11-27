@@ -151,3 +151,77 @@ ul.pages li a {
   margin: 5px 0;
   color: white;
 }
+
+/* About Us Page CSS */
+
+.custom-box {
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    background-color: rgb(185, 180, 255);
+    border-radius: 8px;
+  }
+  
+  .custom-heading {
+    font-weight: bold;
+    font-size: 25px;
+    margin:10px;
+  }
+  
+  .custom-box p {
+    font-size: 20px;
+  }
+  
+  .who-are-we-image-box {
+    width: 20%;
+    height: 300px;
+    background-color: #ccc;
+    margin-left: 880px;
+    margin-top: -325px;
+  }
+  
+  .custom-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin: 0;
+    font-size: 18px;
+    color: black;
+  }
+  
+  
+  /*Our Focus*/
+  .our-focus-box {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+    background-color: #ffffff;
+    max-width: 800px; 
+    margin: 0 auto; 
+    border-radius: 8px
+    
+  }
+  
+  .our-focus-subbox {
+    border: 2px solid grey;
+    padding: 15px;
+    background-color: #ecf0f1;
+    text-align: center;
+    width: 80%; 
+    border-radius: 8px
+    
+  }
+  
+  .focus-image-box {
+    width: 250px;
+    height: 250px; 
+    background-color: #ccc; 
+    border-radius: 8px
+  }
+  
