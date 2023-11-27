@@ -478,6 +478,37 @@ form input[type="submit"] {
     font-size: 20px;
     border-radius: 5px
 }
+
+/*Shopping Cart*/
+
+.add-to-cart-button {
+    font-size: 18px; 
+    padding: 10px 20px; 
+    background-color: #dbdbdb;
+    border-radius: 5px;
+}
+  
+#shopping-cart-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f17115; 
+    text-align: right;
+}
+  
+#cart-popup {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgb(213, 82, 16); 
+    min-width: 200px; 
+}
+  
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
   
 
 
