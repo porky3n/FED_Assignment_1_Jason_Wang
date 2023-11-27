@@ -1,48 +1,95 @@
 /*Cart*/
 
-window.addEventListener('load', function() {
-    document.getElementById('cart-icon').addEventListener('click', function() {
-        var cartPopup = document.getElementById('cart-popup');
-        cartPopup.style.display = (cartPopup.style.display === 'block') ? 'none' : 'block';
+window.addEventListener('load', function () {
+    document.getElementById('cart-icon').addEventListener('click', function () {
+      var cartPopup = document.getElementById('cart-popup');
+      cartPopup.style.display = (cartPopup.style.display === 'block') ? 'none' : 'block';
     });
 
-    var addToCartButtons = document.getElementsByClassName('add-to-cart-button');
 
-    Array.from(addToCartButtons).forEach(function(button) {
-        button.addEventListener('click', function() {
-            var itemName = button.getAttribute('ball-name');
-            var itemPrice = parseFloat(button.getAttribute('ball-price'));
-
-            addToCart(itemName, itemPrice);
-
-            
-            button.textContent = 'Item Added to Cart';
-                
-                
-            setTimeout(function () {
-                button.textContent = 'Add to Cart';}, 1500);
-
-
-        });
-    });
-
-    function addToCart(itemName, price) {
-        var cartItems = document.getElementById('cart-items');
+    document.getElementById('checkout-button').addEventListener('click', function () {
         var totalSpan = document.getElementById('total-price');
-
-     
-        var listItem = document.createElement('li');
-        listItem.textContent = itemName + ' - $' + price;
-
+        var totalPrice = parseFloat(totalSpan.textContent);
+    
         
-        cartItems.appendChild(listItem);
+        var message = `Thank You For Your Purchase! Payment Instructions Sent to Email.`;
+        displayPurchaseMessage(message);
+      });
 
+      function displayPurchaseMessage(message) {
+        var purchaseMessage = document.getElementById('product-purchase-message');
+        purchaseMessage.textContent = message;
+        purchaseMessage.style.display = 'block';
+    
         
-        var currentTotal = parseFloat(totalSpan.textContent);
-        totalSpan.textContent = (currentTotal + price).toFixed(2);
-       
+        setTimeout(function () {
+          purchaseMessage.style.display = 'none';
+        }, 3000);
+      }
+    
+  
+    var addToCartButtons = document.getElementsByClassName('add-to-cart-button');
+  
+    Array.from(addToCartButtons).forEach(function (button) {
+      button.addEventListener('click', function () {
+        var itemName = button.getAttribute('ball-name');
+        var itemPrice = parseFloat(button.getAttribute('ball-price'));
+  
+        addToCart(itemName, 1, itemPrice);
+  
+        button.textContent = 'Item Added to Cart';
+  
+        setTimeout(function () {
+          button.textContent = 'Add to Cart';
+        }, 1500);
+      });
+    });
+  
+    function addToCart(itemName, quantity, price) {
+      var cartItems = document.getElementById('cart-items');
+      var totalSpan = document.getElementById('total-price');
+  
+      
+      var existingItem = Array.from(cartItems.children).find(function (item) {
+        return item.dataset.name === itemName;
+      });
+  
+      if (existingItem) {
+        
+        var currentQuantity = parseInt(existingItem.dataset.quantity);
+        var newQuantity = currentQuantity + quantity;
+        existingItem.dataset.quantity = newQuantity;
+        existingItem.cells[1].textContent = newQuantity;
+        existingItem.cells[2].textContent = '$' + (newQuantity * price).toFixed(2);
+      } else {
+        
+        var newRow = cartItems.insertRow();
+        newRow.dataset.name = itemName;
+        newRow.dataset.quantity = quantity;
+  
+        var cell1 = newRow.insertCell(0);
+        cell1.textContent = itemName;
+  
+        var cell2 = newRow.insertCell(1);
+        cell2.textContent = quantity;
+  
+        var cell3 = newRow.insertCell(2);
+        cell3.textContent = '$' + (quantity * price).toFixed(2);
+      }
+  
+      
+      var currentTotal = parseFloat(totalSpan.textContent);
+      totalSpan.textContent = (currentTotal + price).toFixed(2);
     }
+  });
+  
 
+/*Close Cart*/
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('close-cart').addEventListener('click', function () {
+      document.getElementById('cart-popup').style.display = 'none';
+    });
+  });
 });
 
 /*Hidden Details*/
