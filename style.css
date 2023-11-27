@@ -857,6 +857,14 @@ body {
     width: 100%;
   }
 
+  /*Validation Message for Form*/
+
+  .confirmation-message-box,
+  .error-message {
+    bottom: 50%; /* Adjust the value to center vertically */
+    transform: translate(-50%, -50%);
+  }
+
   /*Equipment Page*/
   /*Filter Panel*/
  
@@ -886,9 +894,13 @@ body {
     min-width: 80%;
   }
 
+  /*Product Purchase Message*/
   #product-purchase-message {
-    display: none;
+    bottom: 50%; /* Adjust the value to center vertically */
+    transform: translate(-50%, -50%);
   }
+
+ 
 }
   
 
