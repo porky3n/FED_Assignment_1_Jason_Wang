@@ -290,8 +290,8 @@ p {
 .our-coaches-subbox {
     border: 2px solid rgb(103, 103, 103);
     padding: 15px;
-    background-color: #ecf0f1;
-    text-align: center;
+    background-color: #ffd7bc;
+    text-align: left;
     width: 85%; 
     border-radius: 8px
 }
@@ -317,7 +317,7 @@ p {
 
 .image-box {
     
-    width: 90.8%; 
+    width: 90%; 
     background-color: #ecf0f1;
     box-sizing: border-box; 
 }
