@@ -721,6 +721,81 @@ body {
     text-align: center;
   }
 
+  /*About Us Page*/
+
+  /*Introduction*/
+  .custom-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-box {
+    width: 85%;
+    max-width: 600px; 
+    margin: 20px auto; 
+  }
+  
+  .who-are-we-image-box {
+    width: 92%;
+    max-width: 550px; 
+    margin: auto; 
+  }
+
+  /*Our Focus*/
+  .our-focus-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-focus-subbox {
+    width: 85%; 
+    margin-bottom: 20px; 
+  }
+
+  .focus-image-box {
+    width: 100%; 
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  /*Our Founder*/
+
+  .founder-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .founder-image-box{
+    margin: 0 auto;
+    width:95%
+  }
+
+  .founder-box {
+    width: 90%;
+  }
+  
+  /*Our Coaches*/
+  .our-coaches-grid {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .our-coaches-subbox,
+  .image-box,
+  .image-box2 {
+    width: 80%; 
+    margin: 0 auto; 
+    box-sizing: border-box; /
+  }
+
+  .our-coaches-subbox p,
+  .image-box p {
+    font-size: 18px; 
+  }
+
+  .our-coaches-subbox li {
+    font-size: 16px; 
+  }
+
 }
   
 
