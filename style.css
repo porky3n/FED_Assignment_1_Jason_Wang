@@ -877,6 +877,18 @@ body {
     width: 95%; 
     margin: 0 auto; 
   }
+
+  #shopping-cart-container {
+    padding: 10px;
+  }
+
+  #cart-popup {
+    min-width: 80%;
+  }
+
+  #product-purchase-message {
+    display: none;
+  }
 }
   
 
