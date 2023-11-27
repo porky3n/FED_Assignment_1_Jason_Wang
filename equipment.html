@@ -32,3 +32,38 @@
 <div class="equipment-page-heading">
     <h2>All of our bowling balls are directly shipped from Storm's Factory in the USA</h2>
 </div>
+
+
+<div class="filter-box">
+    
+    <label for="price">Price:</label>
+    <select id="price">
+      <option value="all">All</option>
+      <option value="low">Low to High</option>
+      <option value="high">High to Low</option>
+    </select>
+  
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="all">All</option>
+      <option value="premier">Premier</option>
+      <option value="signature">Signature</option>
+      <option value="master">Master</option>
+      <option value="thunder">Thunder</option>
+      <option value="spare">Spare</option>   
+    </select>
+
+</div>
+  
+<BR>
+
+<div id="shopping-cart">
+  <p>‎ ‎ Cart</p>
+  <img id="cart-icon" src="D:\NP Y1S2 Lesson Materials\FED\Assignment 1\FED_Assignment-1\Images\cart.png" width="50" height="50">
+    
+  <div id="cart-popup">
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="total-price">0</span></p>
+      <button id="checkout-button">Check Out</button>
+  </div>
+</div>
