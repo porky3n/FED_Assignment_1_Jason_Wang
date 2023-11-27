@@ -152,6 +152,19 @@ ul.pages li a {
   color: white;
 }
 
+/*Index Page (Home Page CSS)*/
+.home-page-images {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.home-page-images img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0px; 
+}
+
 /* About Us Page CSS */
 
 .custom-box {
