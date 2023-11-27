@@ -174,14 +174,13 @@ ul.pages li a {
     margin: 10px;
     background-color:  #cde4ee;
     border-radius: 8px;
-  }
+} 
   
 .custom-heading {
     font-weight: bold;
     font-size: 25px;
     margin:10px;
-    text-align: left;
-  }
+}
   
 .custom-box p {
     font-size: 20px;
