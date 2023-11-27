@@ -186,12 +186,16 @@ ul.pages li a {
     font-size: 20px;
 }
   
+.image-container {
+  display: flex;
+  justify-content: flex-end; 
+}
+
 .who-are-we-image-box {
-    width: 20%;
-    height: 300px;
-    background-color: #ccc;
-    margin-left: 880px;
-    margin-top: -325px;
+  flex: 0 0 20%; 
+  max-width: 20%;
+  height: 300px;
+  background-color: #ccc;
 }
   
 .custom-layout {
