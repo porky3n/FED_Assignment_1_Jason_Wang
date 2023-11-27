@@ -464,6 +464,10 @@ form input[type="submit"] {
     border-radius: 5px
 }
 
+.box2.hidden {
+  display: none;
+}
+
 /*Shopping Cart*/
 
 .add-to-cart-button {
