@@ -329,8 +329,7 @@ p {
     box-sizing: border-box; 
 }
 
-.coaching-page-subheadings
-{text-align: left;}
+
 
 /*Coaching Page CSS*/
 
@@ -417,6 +416,13 @@ p {
 {
   text-align: center;
   margin-bottom: 5px;
+}
+
+.coaching-page-subheadings{
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  margin:10px;
 }
 
 /*Sign Up Form*/
