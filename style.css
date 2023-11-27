@@ -796,6 +796,58 @@ body {
     font-size: 16px; 
   }
 
+  /*Coaching Page*/
+
+  /*Coaching Details*/
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big-coaching-box{
+    flex-basis: 100% ;
+    margin: 0 10px; 
+  }
+
+  .private-coaching-small-box{
+    flex-basis: 100%; 
+    width:90%;
+    margin-top: 20px;
+}    
+
+  /*Coaching Levels*/
+
+  .coaching-levels-grid {
+    grid-template-columns: 1fr; 
+    justify-items: center;
+    width: 85%; 
+    margin: 0 auto; 
+  }
+
+  /*Sign Up Form*/
+
+  form {
+    grid-template-columns: 1fr; 
+    width: 90%; 
+    margin: 40px auto;  
+  }
+
+  .form-centralise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+
+  .form-heading{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  form input {
+    width: 100%;
+  }
 }
   
 
