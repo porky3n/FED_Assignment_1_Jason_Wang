@@ -44,3 +44,15 @@ window.addEventListener('load', function() {
     }
 
 });
+
+/*Details*/
+
+function showBallInfo(box) {
+    const ballInfo = box.querySelector('.ball-info');
+    ballInfo.style.display = 'block';
+}
+
+function hideBallInfo(box) {
+    const ballInfo = box.querySelector('.ball-info');
+    ballInfo.style.display = 'none';
+}
