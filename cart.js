@@ -20,7 +20,7 @@ window.addEventListener('load', function() {
                 
                 
             setTimeout(function () {
-            button.textContent = 'Add to Cart';}, 1500);
+                button.textContent = 'Add to Cart';}, 1500);
 
 
         });
