@@ -172,7 +172,7 @@ ul.pages li a {
     padding: 20px;
     width: 50%;
     margin: 10px;
-    background-color: rgb(185, 180, 255);
+    background-color:  #cde4ee;
     border-radius: 8px;
   }
   
@@ -221,7 +221,7 @@ ul.pages li a {
   .our-focus-subbox {
     border: 2px solid grey;
     padding: 15px;
-    background-color: #ecf0f1;
+    background-color: #fdf5ec;
     text-align: center;
     width: 80%; 
     border-radius: 8px
@@ -231,7 +231,8 @@ ul.pages li a {
     width: 250px;
     height: 250px; 
     background-color: #ccc; 
-    border-radius: 8px
+    border-radius: 8px;
+    margin-top: 5px;
   }
 
 /*Founder*/
@@ -254,7 +255,7 @@ ul.pages li a {
     border: 1px solid rgb(19, 19, 19);
     text-align: center;
     padding: 10px;
-    background-color: #ecf0f1;
+    background-color: #fdf5ec;
     width: 95%;
     margin: 0 auto;
     border-radius: 8px
