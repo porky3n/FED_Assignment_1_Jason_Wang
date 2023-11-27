@@ -329,6 +329,9 @@ p {
     box-sizing: border-box; 
 }
 
+.coaching-page-subheadings
+{text-align: left;}
+
 /*Coaching Page CSS*/
 
 /*Coaching Info*/
