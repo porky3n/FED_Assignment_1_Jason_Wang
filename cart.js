@@ -45,7 +45,7 @@ window.addEventListener('load', function() {
 
 });
 
-/*Details*/
+/*Hidden Details*/
 
 function showBallInfo(box) {
     const ballInfo = box.querySelector('.ball-info');
@@ -56,3 +56,18 @@ function hideBallInfo(box) {
     const ballInfo = box.querySelector('.ball-info');
     ballInfo.style.display = 'none';
 }
+
+/*Filter*/
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('category').addEventListener('change', function () {
+        var selectedCategory = this.value;
+        var balls = document.querySelectorAll('.box2');
+
+        balls.forEach(function (ball) {
+            var ballCategory = ball.getAttribute('data-category');
+            var showBall = selectedCategory === 'all' || selectedCategory === ballCategory;
+            ball.classList.toggle('hidden', !showBall);
+        });
+    });
+});
