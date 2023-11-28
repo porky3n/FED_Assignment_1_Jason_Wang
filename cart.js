@@ -12,8 +12,12 @@ window.addEventListener('load', function () {
         var totalPrice = parseFloat(totalSpan.textContent);
     
         
-        var message = `Thank You For Your Purchase! Payment Instructions Sent to Email.`;
-        displayPurchaseMessage(message);
+        if (totalPrice === 0) {
+          displayErrorMessage("Purchase Failed. Your Cart is Empty.");
+        } else {
+          var message = `Thank You For Your Purchase! Payment Instructions Sent to Email.`;
+          displayPurchaseMessage(message);
+      }
       });
 
       function displayPurchaseMessage(message) {
@@ -26,6 +30,16 @@ window.addEventListener('load', function () {
           purchaseMessage.style.display = 'none';
         }, 3000);
       }
+
+      function displayErrorMessage(message) {
+        var errorMessage = document.getElementById('fail-purchase-message');
+        errorMessage.textContent = message;
+        errorMessage.style.display = 'block';
+
+        setTimeout(function () {
+            errorMessage.style.display = 'none';
+        }, 3000);
+    }
     
   
     var addToCartButtons = document.getElementsByClassName('add-to-cart-button');

@@ -72,6 +72,21 @@ Website Contains 4 Main Pages:
 
 **Testing**
 
+**Sign Up Form:** 
+1. Go to Coaching Page, scroll down to sign up form.
+2. Try submitting the form with any missing input and submit, there will a required message.
+3. Try typing in an invalid phone number and submit, error message will appear.
+4. Try typing an invalid email without '@' or '.com' and submit, error message will appear.
+5. Try typing both invalid email and phone and submit, 2 error message will show.
+6. Try typing all valid inputs and submit, success message will show.
+
+**Shopping Cart**
+1. Go to Equipment Page
+2. Open the shopping cart, try press 'Buy' without adding anything to cart, there will be a Purchase Failed Message.
+3. Add something in the cart, press 'Buy', there will be a Purchase Success Message.
+4. Add Multiple of the same items, see Quantity and Price increase accordingly. 
+
+
 
 **Credits**
 Content:
