@@ -25,12 +25,12 @@ Our design rationale is to create a user-friendly website that caters to bowlers
 
 Website Contains 4 Main Pages:
 
-Page 1: Index Page (Home) (No JavaScript)
+**Page 1: Index Page (Home) (No JavaScript)**
 - Navigation Bar (4 Tabs: Home, About Us, Coaching Equipment)
 - 2 Home Page Images
 - Footer (3 Tabs, Contact Us, Join The Community, Sponsored By, Company Logo)
 
-Page 2: About Us Page (No JavaScript)
+**Page 2: About Us Page (No JavaScript)**
 - Navigation Bar
 - WHO ARE WE?
 - HOW WE BEGAN?
@@ -39,29 +39,30 @@ Page 2: About Us Page (No JavaScript)
 - OUR COACHES
 - Footer
 
-Page 3: Coaching Page 
+**Page 3: Coaching Page**
 - Navigation Bar
 - Main Coaching 
 - Private Coaching
 - Our Rationale
 - Coaching Levels Details
 - Assessment
-- Sign Up Form: Name, DOB (Calender) Email (Validation: @gmail.com), Phone Number (Validation: 8 digits, Start with 6,8,9)
+
+- **Sign Up Form:** There are input validations for email and phone number. If user keys in phone number that is not 8 digits, starts with 6,8 or 9, error message will show when user press submit. Only when all blanks are filled, vald inputs, then Success Message will show when user press submit.
+
 - Footer
 
-Page 4: Equipment Page
+**Page 4: Equipment Page**
 - Navigation Bar
-- Shopping Cart (CAN EXPAND & CLOSE)
-- Filter Panel (Ball Category, Price)
-- Bowling Balls Display (WHEN HOVER: SHOW BALL STATISTICS) (ADD TO CART BUTTON)
+
+- **Shopping Cart** The shopping cart is able to expand and close, when open, it displays the items added to cart in a table (Product Name, Quantity, Price). As more items are added, the quantity, price and total price will be updated in the cart. There is also a Buy Button, when pressed, a message saying Purchase Successful will be shown.
+
+- **Filter Panel** The filter panel is able to filter balls based on categories as well as sort them based on price High to Low or vice versa. When filtered, the irrelevant balls will be hidden in the page.
+
+- **Bowling Balls Display** For each bowling ball display box, when mouse hovers over, a small box will appear showing more statistics about the ball. Each ball also has an "Add to Cart" Button, when pressed, the button changes to "Item Added to Cart" for 2s before it changes back. The shopping cart will update accordingly as well.
+
+- Bowling Ball Maintainence Services
 
 - Footer
-
-
-
-
-
-
 
 
 
