@@ -17,6 +17,7 @@ window.addEventListener('load', function () {
         } else {
           var message = `Thank You For Your Purchase! Payment Instructions Sent to Email.`;
           displayPurchaseMessage(message);
+          clearShoppingCart();
       }
       });
 
@@ -95,6 +96,14 @@ window.addEventListener('load', function () {
       var currentTotal = parseFloat(totalSpan.textContent);
       totalSpan.textContent = (currentTotal + price).toFixed(2);
     }
+
+    function clearShoppingCart() {
+      var cartItems = document.getElementById('cart-items');
+      var totalSpan = document.getElementById('total-price');
+
+      cartItems.innerHTML = ''; // Clear all rows from the cart
+      totalSpan.textContent = '0.00'; // Reset total price to zero
+  }
   });
   
 
