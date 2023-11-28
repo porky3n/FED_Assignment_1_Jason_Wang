@@ -10,7 +10,6 @@ In addition to coaching services, the website hosts an online shop of our fully 
 Join us now at our website, and embark on your journey to bowling excellence with **J Bowling Coaching & Supplies**.
 
 
-
 **Design Process**
 Our design rationale is to create a user-friendly website that caters to bowlers of all skill levels. Whether you're seeking professional coaching or looking to purchase new bowling equipment, our website is designed to provide you with a seamless and informative experience.
 
@@ -66,20 +65,44 @@ Website Contains 4 Main Pages:
 - Footer
 
 
-
-Technologies Used
+**Technologies Used**
 - Languages: HTML, CSS and JavaScript
 - Coding Platform: VS Code
 
 
-Testing
+**Testing**
 
 
-Credits
-Content
+**Credits**
+Content:
+Did not copy any content.
+
+Media:
+I took images from these links:
+https://www.stormbowling.com/dna-bbmvna12
+https://www.stormbowling.com/virtual-energy-blackout-bbmvek12
+https://www.stormbowling.com/absolute-bbmvbs12
+https://www.stormbowling.com/journey-bbmvjy12
+https://www.stormbowling.com/phazeii
+https://www.stormbowling.com/iqtour
+https://www.stormbowling.com/hy-roadpearl
+https://www.stormbowling.com/pitch-black-bbmtub12
+https://www.stormbowling.com/icestorm-8
+https://www.stormbowling.com/about
+https://www.youtube.com/channel/UC7MbYTEskjbg31t_1wAWjWA
+https://twitter.com/strike3bowling/status/1184606277558652933
+https://www.facebook.com/ProfessionalBowlersAssociation/posts/chris-via-bowling-a-former-collegiate-standout-and-veteran-of-the-team-usa-progr/10157855374179774/
+https://www.starnewsonline.com/story/sports/2017/05/23/pro-bowling-bringing-characters-to-wilmington/20796417007/
+https://www.gq.com/story/jason-belmonte-bowling-profile
+https://www.pacificbowl.com/pro-shop
+https://gebhardtsbowling.com/jayhawk-detox-bowling-ball-oil-remover/
+https://www.bowlingindex.com/haus-resurfacer.html
+https://www.jayhawkbowling.com/Products/Drilling_Equipment.html
+https://www.reddit.com/r/Bowling/comments/gnbudr/probably_a_really_stupid_question_but_if_i_buy_a/
+https://www.hiclipart.com/free-transparent-background-png-clipart-jmkwd
 
 
-Media
 
+Acknowledgements:
+I received inspiration from https://www.stormbowling.com/
 
-Acknowledgements
