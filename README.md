@@ -1,4 +1,4 @@
-FED_Assignment 1
+FED Assignment 1
 Done by: Wang Po Yen Jason IT02
 
 **Introduction**: A comprehensive website for **J Bowling Coaching & Supplies**. This digital platform serves as a one-stop destination for bowling enthusiasts of all skill levels.

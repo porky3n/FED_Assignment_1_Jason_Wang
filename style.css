@@ -302,6 +302,14 @@ font-size: 20px;
   max-height: 100%;
 }
 
+
+.cert-button {
+  display: block;
+  margin-right: 30px; 
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
 /*Coaches*/
 
 .our-coaches-box {
@@ -353,7 +361,6 @@ font-size: 20px;
 }
 
 
-
 /*Coaching Page CSS*/
 
 /*Coaching Info*/
@@ -364,45 +371,45 @@ font-size: 20px;
   }
   
 .container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px auto;
 }
   
 .big-coaching-box {
-    flex-basis: 66%; 
-    background-color: #f7efe6;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border: 2px solid black;
-    border-radius: 8px;
-    margin: 10px;  
+  flex-basis: 66%; 
+  background-color: #f7efe6;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 10px;  
 }
        
 .box {
-    flex-basis: calc(33.33% - 20px);
-    margin: 10px;
-    text-align: center;   
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;   
 }
   
 .box hr {
-    margin: 10px 0;
-    border: 0;
-    border-top: 2px solid grey
+  margin: 10px 0;
+  border: 0;
+  border-top: 2px solid grey
 }
   
 .private-coaching-small-box{
-    flex-basis: 30%; 
-    background-color: rgba(252, 224, 224, 0.863);
-    padding: 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 8px;
-    margin: 10px;   
+  flex-basis: 30%; 
+  background-color: rgba(252, 224, 224, 0.863);
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 10px;   
 }    
 
 /*Coaching Levels Details*/
@@ -466,86 +473,87 @@ font-size: 20px;
 /*Sign Up Form*/
 
 .form-heading{
-    text-align: center;
+  text-align: center;
   }
   
 .form-centralise {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  font-size: 18px;
+  text-align: left;
 }
   
 form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #f7efe6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #f7efe6;
 }
   
 form input[type="submit"] {
-    grid-column: span 2;
+  grid-column: span 2;
 }
   
 /* Sign Up Form Confirmation Message */
 .confirmation-message-box {
-    display: none;
-    background-color: #4CAF50;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5px;
-    z-index: 1000; 
+  display: none;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  z-index: 1000; 
 }
 
 .error-message {
   display: none;
-    background-color: rgb(255, 99, 99);
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5px;
-    z-index: 1000; 
+  background-color: rgb(255, 99, 99);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  z-index: 1000; 
 }
 
 /*Filter Panel*/
 
 .filter-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid #ccc;
-    border: 1px solid #a2a2a2;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: #f7efe6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  border: 1px solid #a2a2a2;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #f7efe6;
   }
   
 .filter-box label {
-    margin-left: 10px;
-    font-size: 20px;
-    border-radius: 5px
+  margin-left: 10px;
+  font-size: 20px;
+  border-radius: 5px
 }
   
 .filter-box select {
-    margin-left: 10px;
-    font-size: 20px;
-    border-radius: 5px
+  margin-left: 10px;
+  font-size: 20px;
+  border-radius: 5px
 }
 
 .ball-display-box.hidden {
@@ -650,16 +658,16 @@ form input[type="submit"] {
 
 #product-purchase-message {
   display: none;
-    background-color: #4CAF50;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5px;
-    z-index: 1000; 
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  z-index: 1000; 
 }
 
 /*Bowling Ball Display*/
