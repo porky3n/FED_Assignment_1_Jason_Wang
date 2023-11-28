@@ -11,7 +11,7 @@ Join us now at our website, and embark on your journey to bowling excellence wit
 
 
 
-Design Process
+**Design Process**
 Our design rationale is to create a user-friendly website that caters to bowlers of all skill levels. Whether you're seeking professional coaching or looking to purchase new bowling equipment, our website is designed to provide you with a seamless and informative experience.
 
 1. **New Bowlers**: If you're new to bowling and looking for your first coaching session, we recommend starting with our "About Us" page. Here, you can learn about our background, rationale and the expertise of our team. Once you're familiar with our background, you can explore the "Coaching Page" for detailed information about our coaching levels and what each session entails.
@@ -21,9 +21,30 @@ Our design rationale is to create a user-friendly website that caters to bowlers
 3. **Equipment Needs**: For bowlers of all levels looking to purchase new bowling balls or maintain their current ones, our "Equipment Page" is a must-visit. It showcases a variety of bowling balls, able to sort by category, and maintenance services. Also, keep an eye out for our promotional packages for great deals!
 
 
-Features
+**Features**
 
-Features Left to Implement
+Website Contains 4 Main Pages:
+
+Page 1: Index Page (Home) (No JavaScript)
+- Navigation Bar (4 Tabs: Home, About Us, Coaching Equipment)
+- 2 Home Page Images
+- Footer (3 Tabs, Contact Us, Join The Community, Sponsored By, Company Logo)
+
+Page 2: About Us Page (No JavaScript)
+- Navigation Bar
+- WHO ARE WE?
+- HOW WE BEGAN?
+- OUR FOCUS
+- OUR FOUNDER (+ His Achievments)
+- OUR COACHES
+- Footer
+
+Page 3: Coaching Page 
+
+
+
+
+
 
 
 Technologies Used
