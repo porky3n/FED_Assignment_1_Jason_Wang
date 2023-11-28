@@ -40,6 +40,24 @@ Page 2: About Us Page (No JavaScript)
 - Footer
 
 Page 3: Coaching Page 
+- Navigation Bar
+- Main Coaching 
+- Private Coaching
+- Our Rationale
+- Coaching Levels Details
+- Assessment
+- Sign Up Form: Name, DOB (Calender) Email (Validation: @gmail.com), Phone Number (Validation: 8 digits, Start with 6,8,9)
+- Footer
+
+Page 4: Equipment Page
+- Navigation Bar
+- Shopping Cart (CAN EXPAND & CLOSE)
+- Filter Panel (Ball Category, Price)
+- Bowling Balls Display (WHEN HOVER: SHOW BALL STATISTICS) (ADD TO CART BUTTON)
+
+- Footer
+
+
 
 
 

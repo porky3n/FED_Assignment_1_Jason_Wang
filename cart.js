@@ -107,14 +107,14 @@ function hideBallInfo(box) {
 /*Filter*/
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('category').addEventListener('change', function () {
-        var selectedCategory = this.value;
-        var balls = document.querySelectorAll('.box2');
+  document.getElementById('category').addEventListener('change', function () {
+      var selectedCategory = this.value;
+      var balls = document.querySelectorAll('.ball-display-box');
 
-        balls.forEach(function (ball) {
-            var ballCategory = ball.getAttribute('data-category');
-            var showBall = selectedCategory === 'all' || selectedCategory === ballCategory;
-            ball.classList.toggle('hidden', !showBall);
-        });
-    });
+      balls.forEach(function (ball) {
+          var ballCategory = ball.getAttribute('data-category');
+          var showBall = selectedCategory === 'all' || selectedCategory === ballCategory;
+          ball.classList.toggle('hidden', !showBall);
+      });
+  });
 });
