@@ -35,7 +35,8 @@ Website Contains 4 Main Pages:
 - WHO ARE WE?
 - HOW WE BEGAN?
 - OUR FOCUS
-- OUR FOUNDER (+ His Achievments)
+- **OUR FOUNDER (+ His Achievments)**: There is a "Show Certification" Button, when pressed, an image of his Coaching Certification will pop up. Press the same button to close
+
 - OUR COACHES
 - Footer
 
@@ -47,7 +48,7 @@ Website Contains 4 Main Pages:
 - Coaching Levels Details
 - Assessment
 
-- **Sign Up Form:** There are input validations for email and phone number. If user keys in phone number that is not 8 digits, starts with 6,8 or 9, error message will show when user press submit. Only when all blanks are filled, vald inputs, then Success Message will show when user press submit.
+- **Sign Up Form:** There are input validations for email and phone number. If user keys in phone number that is not 8 digits, starts with 6,8 or 9, "Invalid Phone Number" error message will show when user press submit. If user keys in email with no "@" and ".com", "Invalid Email" error message shows. Only when all blanks are filled, vald inputs, then Success Message will show when user press submit.
 
 - Footer
 
