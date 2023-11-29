@@ -1,6 +1,6 @@
-/*Home Page CSS*/
+/*Index.html (Home Page)*/
 
-/*Header*/
+/*Navigation Bar*/
 
 .default-heading {
   text-align: center;
@@ -163,7 +163,7 @@ body {
   color: white;
 }
 
-/*Index Page (Home Page CSS)*/
+/*Home Page Images*/
 .home-page-images {
   display: flex;
   flex-direction: column; 
@@ -176,7 +176,7 @@ body {
   margin-bottom: 0px; 
 }
 
-/* About Us Page CSS */
+/*AboutUs.html*/
 
 .custom-box {
   border: 2px solid black;
@@ -201,7 +201,7 @@ body {
 .who-are-we-image-container {
   display: flex;
   justify-content: flex-end;
-  align-items: center; /* Adjust the vertical alignment */
+  align-items: center; 
 }
 
 .who-are-we-image-box {
@@ -361,7 +361,7 @@ font-size: 20px;
 }
 
 
-/*Coaching Page CSS*/
+/*Coaching.html*/
 
 /*Coaching Info*/
 
@@ -529,6 +529,8 @@ form input[type="submit"] {
   border-radius: 5px;
   z-index: 1000; 
 }
+
+/*Equipment.html*/
 
 /*Filter Panel*/
 
@@ -738,9 +740,11 @@ body {
 
 /*Mobile View Settings*/
 
-/*Heading Table*/
-
 @media (max-width: 767px) {
+
+  /*Index.html (Home Page)*/
+  /*Navigation Bar*/
+
   .default-heading {
     font-size: 10px; 
   }
@@ -797,7 +801,7 @@ body {
     text-align: center;
   }
 
-  /*About Us Page*/
+  /*AboutUs.html*/
 
   /*Introduction*/
   .custom-layout {
@@ -877,7 +881,7 @@ body {
     font-size: 16px; 
   }
 
-  /*Coaching Page*/
+  /*Coaching.html*/
 
   /*Coaching Details*/
 
@@ -946,7 +950,7 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  /*Equipment Page*/
+  /*Equipment.html*/
   /*Filter Panel*/
  
   .filter-box label,
@@ -977,11 +981,10 @@ body {
 
   /*Product Purchase Message*/
   #product-purchase-message {
-    bottom: 50%; /* Adjust the value to center vertically */
+    bottom: 50%; 
     transform: translate(-50%, -50%);
   }
 
- 
 }
   
 

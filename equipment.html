@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<body>
+
+<!-- Company Name & Logo & Operating Hours -->
 <div class="default-heading">
   <img src="Images/logo.png" alt="company logo"
       width="180"
@@ -22,6 +25,7 @@
   <h2>Closed On Public Holidays</h2>
 </div>
 
+<!--Navigation Bar with 4 Tabs--> 
 <header>
     <ul class="pages">
      <li><a href="index.html">Home</a></li>
@@ -38,6 +42,7 @@
     <h2>All of our bowling balls are directly shipped from Storm's Factory in the USA</h2>
 </div>
 
+<!--Filter Panel-->
 <div class="filter-box">
     <label for="price">Price:</label>
     <select id="price">
@@ -59,6 +64,7 @@
   
 <BR>
 
+<!--Shopping Cart-->
 <div id="shopping-cart-container">
   <p>Cart</p>
   <img id="cart-icon" src="Images/cart.png" alt="shopping cart icon" width="50" height="50">
@@ -83,11 +89,13 @@
   </div>
 </div>
 
+<!--Payment Success and Fail Message Classes-->
 <div class="product-purchase-message" id="product-purchase-message"></div>
 <div class="fail-purchase-message" id="fail-purchase-message"></div>
 
+<!--Bowling Ball Display-->
 <div class="bowling-ball-container">
-  <div class="ball-display-box" data-category="premier" price="360" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="premier" data-price="360" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
         <h2>Storm DNA</h2>
         <img src="Images/DNA.png" alt="image of storm DNA"
         width="300"
@@ -104,11 +112,11 @@
           </ul>
         </div>
         
-        <button class="add-to-cart-button" ball-name="Storm DNA" ball-price="360">Add to Cart</button>
+        <button class="add-to-cart-button" data-ball-name="Storm DNA" data-ball-price="360">Add to Cart</button>
             
   </div>
 
-  <div class="ball-display-box" data-category="premier" price="350" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="premier" data-price="350" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
         <h2>Storm ABSOLUTE</h2>
         <img src="Images/ABSOLUTE.png" alt="image of storm Absolute"
         width="300"
@@ -125,11 +133,11 @@
           </ul>
         </div>
         
-        <button class="add-to-cart-button" ball-name="Storm Absolute" ball-price="350">Add to Cart</button>
+        <button class="add-to-cart-button" data-ball-name="Storm Absolute" data-ball-price="350">Add to Cart</button>
 
   </div>
 
-  <div class="ball-display-box" data-category="signature" price="355" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="signature" data-price="355" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
       <h2>Storm Virtual Energy Black Out</h2>
       <img src="Images/VEBO.png" alt="image of storm Virtual Energy Blackout"
       width="300"
@@ -145,10 +153,10 @@
         </ul>
       </div>
       
-      <button class="add-to-cart-button" ball-name="Storm Virtual Energy BlackOut" ball-price="355">Add to Cart</button>
+      <button class="add-to-cart-button" data-ball-name="Storm Virtual Energy BlackOut" data-ball-price="355">Add to Cart</button>
   </div>
 
-  <div class="ball-display-box" data-category="signature" price="345" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)" >
+  <div class="ball-display-box" data-category="signature" data-price="345" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)" >
     <h2>Storm Journey</h2>
     <img src="Images/JOURNEY.png" alt="image of storm Journey"
     width="300"
@@ -164,10 +172,10 @@
       </ul>
     </div>
 
-    <button class="add-to-cart-button" ball-name="Storm Journey" ball-price="345">Add to Cart</button>
+    <button class="add-to-cart-button" data-ball-name="Storm Journey" data-ball-price="345">Add to Cart</button>
   </div>
 
-  <div class="ball-display-box" data-category="master" price="340" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="master" data-price="340" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm Phaze 2</h2>
     <img src="Images/PHAZE2.png" alt="image of storm Phaze 2"
     width="300"
@@ -182,10 +190,10 @@
       </ul>
     </div>
 
-    <button class="add-to-cart-button" ball-name="Storm Phaze 2" ball-price="340">Add to Cart</button>
+    <button class="add-to-cart-button" data-ball-name="Storm Phaze 2" data-ball-price="340">Add to Cart</button>
   </div>
 
-  <div class="ball-display-box" data-category="master" price="320" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="master" data-price="320" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm !Q Tour Edition</h2>
     <img src="Images/IQ.png" alt="image of storm IQ"
     width="300"
@@ -201,10 +209,10 @@
       </ul>
     </div>
   
-    <button class="add-to-cart-button" ball-name="Storm !Q Tour Edition" ball-price="320">Add to Cart</button>
+    <button class="add-to-cart-button" data-ball-name="Storm !Q Tour Edition" data-ball-price="320">Add to Cart</button>
   </div>
 
-  <div class="ball-display-box" data-category="thunder" price="310" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="thunder" data-price="310" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm Hy-Road Pearl</h2>
     <img src="Images/HY-ROADPEARL.png" alt="image of storm Hy-Road Pearl"
     width="300"
@@ -220,10 +228,10 @@
       </ul>
     </div>
     
-    <button class="add-to-cart-button" ball-name="Storm Hy-Road Pearl" ball-price="310">Add to Cart</button>
+    <button class="add-to-cart-button" data-ball-name="Storm Hy-Road Pearl" data-ball-price="310">Add to Cart</button>
   </div>
 
-  <div class="ball-display-box" data-category="thunder" price="300" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="thunder" data-price="300" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm Pitch Black</h2>
     <img src="Images/PITCHBLACK.png" alt="image of storm Pitch Black"
     width="300"
@@ -238,10 +246,10 @@
         <li>Coverstock: Control Urethane Solid</li>
       </ul>
     </div>
-    <button class="add-to-cart-button" ball-name="Storm Pitch Black" ball-price="300">Add to Cart</button>
+    <button class="add-to-cart-button" data-ball-name="Storm Pitch Black" data-ball-price="300">Add to Cart</button>
   </div>
 
-  <div class="ball-display-box" data-category="spare" price="180" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
+  <div class="ball-display-box" data-category="spare" data-price="180" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm ICE</h2>
     <img src="Images/ICE.png" alt="image of storm ICE"
     width="300"
@@ -257,11 +265,12 @@
       </ul>
     </div>
 
-    <button class="add-to-cart-button" ball-name="Storm ICE" ball-price="180">Add to Cart</button>
+    <button class="add-to-cart-button" data-ball-name="Storm ICE" data-ball-price="180">Add to Cart</button>
   </div>
 
 </div>
 
+<!--Ball Services Display-->
 <div class="custom-heading">Ball Maintainence</div>
 
 <div class="equipment-page-heading">
@@ -367,7 +376,8 @@
 
 <BR>
 
-  <footer class="footer-container">
+<!--Footer-->
+<footer class="footer-container">
     <div class="footer-tabs">
       <div class="footer-pages">
         <a href="aboutus.html">About Us</a>
@@ -387,24 +397,27 @@
     </div>
 
     <div class="community">
-        <h2>Join the Community</h2>
-        <a href="https://www.facebook.com">Facebook</a>
-        <a href="https://www.instagram.com">Instagram</a>
+      <h2>Join the Community</h2>
+      <a href="https://www.facebook.com">Facebook</a>
+      <a href="https://www.instagram.com">Instagram</a>
     </div>
 
     <div class="sponsored">
-        <h2>Sponsored By</h2>
-        <img src="Images/storm.jpg" alt="image of our sponsor's logo" width="200" height="200">
+      <h2>Sponsored By</h2>
+      <img src="Images/storm.jpg" alt="image of our sponsor's logo" width="200" height="200">
     </div>
 
     <div class="copyright">
-        <p>©2023 J Bowling Coaching & Supplies</p>
-        <p>Designed By: Jason Wang | Privacy Policy</p>
+      <p>©2023 J Bowling Coaching & Supplies</p>
+      <p>Designed By: Jason Wang | Privacy Policy</p>
     </div>
 
     <div class="footer-logo">
-        <h2>Company Logo</h2>
-        <img src="Images/logo.png" alt="image of our company logo" width="300" height="300">
+      <h2>Company Logo</h2>
+      <img src="Images/logo.png" alt="image of our company logo" width="300" height="300">
     </div>
   </div>
 </footer>
+
+</body>
+</html>
