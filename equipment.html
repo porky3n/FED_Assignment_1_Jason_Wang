@@ -1,4 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,7 +17,7 @@
 </head>
 
 <div class="default-heading">
-  <img src="Images\logo.png"
+  <img src="Images/logo.png" alt="company logo"
       width="180"
       height="180">
   <h1>J Bowling Coaching & Supplies</h1>
@@ -56,7 +65,7 @@
 
 <div id="shopping-cart-container">
   <p>Cart</p>
-  <img id="cart-icon" src="Images\cart.png" width="50" height="50">
+  <img id="cart-icon" src="Images/cart.png" alt="shopping cart icon" width="50" height="50">
   
   <div id="cart-popup">
     <button id="close-cart">Close</button>
@@ -84,17 +93,19 @@
 <div class="bowling-ball-container">
   <div class="ball-display-box" data-category="premier" price="360" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
         <h2>Storm DNA</h2>
-        <img src="Images\DNA.png" 
+        <img src="Images/DNA.png" alt="image of storm DNA"
         width="300"
         height="300">
         <p>Premier</p>
         <p>Price: $360</p>
 
         <div class="ball-info">
-          <li>RG:2.48</li>
-          <li>Diff:0.053</li>
-          <li>Int Diff:0.023</li>
-          <li>Coverstock: EXO Solid</li>
+          <ul>
+            <li>RG:2.48</li>
+            <li>Diff:0.053</li>
+            <li>Int Diff:0.023</li>
+            <li>Coverstock: EXO Solid</li>
+          </ul>
         </div>
         
         <button class="add-to-cart-button" ball-name="Storm DNA" ball-price="360">Add to Cart</button>
@@ -104,18 +115,21 @@
 
   <div class="ball-display-box" data-category="premier" price="350" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
         <h2>Storm ABSOLUTE</h2>
-        <img src="Images\ABSOLUTE.png" 
+        <img src="Images/ABSOLUTE.png" alt="image of storm Absolute"
         width="300"
         height="300">
         <p>Premier</p>
         <p>Price: $350</p>
         
         <div class="ball-info">
-          <li>RG:2.48</li>
-          <li>Diff:0.050</li>
-          <li>Int Diff:0.021</li>
-          <li>Coverstock: R2S Deep Hybrid</li>
+          <ul>
+            <li>RG: 2.48</li>
+            <li>Diff: 0.050</li>
+            <li>Int Diff: 0.021</li>
+            <li>Coverstock: R2S Deep Hybrid</li>
+          </ul>
         </div>
+        
         
         <button class="add-to-cart-button" ball-name="Storm Absolute" ball-price="350">Add to Cart</button>
 
@@ -124,16 +138,18 @@
 
   <div class="ball-display-box" data-category="signature" price="355" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
       <h2>Storm Virtual Energy Black Out</h2>
-      <img src="Images\VEBO.png" 
+      <img src="Images/VEBO.png" alt="image of storm Virtual Energy Blackout"
       width="300"
       height="300">
       <p>Signature</p>
       <p>Price: $355</p>
       
       <div class="ball-info">
-        <li>RG:2.48</li>
-        <li>Diff:0.052</li>
-        <li>Coverstock: ReX Pearl</li>
+        <ul>
+          <li>RG:2.48</li>
+          <li>Diff:0.052</li>
+          <li>Coverstock: ReX Pearl</li>
+        </ul>
       </div>
       
       <button class="add-to-cart-button" ball-name="Storm Virtual Energy BlackOut" ball-price="355">Add to Cart</button>
@@ -142,16 +158,18 @@
 
   <div class="ball-display-box" data-category="signature" price="345" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)" >
     <h2>Storm Journey</h2>
-    <img src="Images\JOURNEY.png" 
+    <img src="Images/JOURNEY.png" alt="image of storm Journey"
     width="300"
     height="300">
     <p>Signature</p>
     <p>Price: $345</p>
     
     <div class="ball-info">
-      <li>RG:2.52</li>
-      <li>Diff:0.053</li>
-      <li>Coverstock: TX-16 Pearl</li>
+      <ul>
+        <li>RG:2.52</li>
+        <li>Diff:0.053</li>
+        <li>Coverstock: TX-16 Pearl</li>
+      </ul>
     </div>
 
     <button class="add-to-cart-button" ball-name="Storm Journey" ball-price="345">Add to Cart</button>
@@ -160,34 +178,37 @@
 
   <div class="ball-display-box" data-category="master" price="340" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm Phaze 2</h2>
-    <img src="Images\PHAZE2.png" 
+    <img src="Images/PHAZE2.png" alt="image of storm Phaze 2"
     width="300"
     height="300">
     <p>Master</p>
     <p>Price: $340</p>
     <div class="ball-info">
-
-      <li>RG:2.48</li>
-      <li>Diff:0.051</li>
-      <li>Coverstock: TX-16 Solid</li>
-
+      <ul>
+        <li>RG:2.48</li>
+        <li>Diff:0.051</li>
+        <li>Coverstock: TX-16 Solid</li>
+      </ul>
     </div>
+
     <button class="add-to-cart-button" ball-name="Storm Phaze 2" ball-price="340">Add to Cart</button>
   </div>
 
 
   <div class="ball-display-box" data-category="master" price="320" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm !Q Tour Edition</h2>
-    <img src="Images\IQ.png" 
+    <img src="Images/IQ.png" alt="image of storm IQ"
     width="300"
     height="300">
     <p>Master</p>
     <p>Price: $320</p>
     
     <div class="ball-info">
-      <li>RG:2.49</li>
-      <li>Diff:0.029</li>
-      <li>Coverstock: R2S Solid</li>
+      <ul>
+        <li>RG:2.49</li>
+        <li>Diff:0.029</li>
+        <li>Coverstock: R2S Solid</li>
+      </ul>
     </div>
   
     <button class="add-to-cart-button" ball-name="Storm !Q Tour Edition" ball-price="320">Add to Cart</button>
@@ -196,16 +217,18 @@
 
   <div class="ball-display-box" data-category="thunder" price="310" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm Hy-Road Pearl</h2>
-    <img src="Images\HY-ROADPEARL.png" 
+    <img src="Images/HY-ROADPEARL.png" alt="image of storm Hy-Road Pearl"
     width="300"
     height="300">
     <p>Thunder</p>
     <p>Price: $310</p>
     
     <div class="ball-info">
-      <li>RG:2.57</li>
-      <li>Diff:0.046</li>
-      <li>Coverstock: R2S Pearl</li>
+      <ul>
+        <li>RG:2.57</li>
+        <li>Diff:0.046</li>
+        <li>Coverstock: R2S Pearl</li>
+      </ul>
     </div>
     
     <button class="add-to-cart-button" ball-name="Storm Hy-Road Pearl" ball-price="310">Add to Cart</button>
@@ -214,16 +237,18 @@
 
   <div class="ball-display-box" data-category="thunder" price="300" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm Pitch Black</h2>
-    <img src="Images\PITCHBLACK.png" 
+    <img src="Images/PITCHBLACK.png" alt="image of storm Pitch Black"
     width="300"
     height="300">
     <p>Thunder</p>
     <p>Price: $300</p>
     
     <div class="ball-info">
-      <li>RG:2.57</li>
-      <li>Diff:0.022</li>
-      <li>Coverstock: Control Urethane Solid</li>
+      <ul>
+        <li>RG:2.57</li>
+        <li>Diff:0.022</li>
+        <li>Coverstock: Control Urethane Solid</li>
+      </ul>
     </div>
     <button class="add-to-cart-button" ball-name="Storm Pitch Black" ball-price="300">Add to Cart</button>
   </div>
@@ -231,16 +256,18 @@
 
   <div class="ball-display-box" data-category="spare" price="180" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Storm ICE</h2>
-    <img src="Images\ICE.png" 
+    <img src="Images/ICE.png" alt="image of storm ICE"
     width="300"
     height="300">
     <p>Spare</p>
     <p>Price: $180</p>
     
     <div class="ball-info">
-      <li>RG:2.69</li>
-      <li>Diff:0.006</li>
-      <li>Coverstock: Pearl Polyester</li>
+      <ul>
+        <li>RG:2.69</li>
+        <li>Diff:0.006</li>
+        <li>Coverstock: Pearl Polyester</li>
+      </ul>
     </div>
 
     <button class="add-to-cart-button" ball-name="Storm ICE" ball-price="180">Add to Cart</button>
@@ -257,12 +284,14 @@
 <div class="bowling-ball-container">
   <div class="ball-display-box" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
       <h2>Drilling</h2>
-      <img src="Images\drill.png" 
+      <img src="Images/drill.png" alt="image of drilling machine"
       width="300"
       height="300">
-      <p><li>Finger Holes (Inserts): $45</li></p>
-      <p><li>Finger Holes (w/o Inserts): $32</li></p>
-      <p><li>Inserts only : $6/finger</li></p>
+      <ul>
+        <li>Finger Holes (Inserts): $45</li>
+        <li>Finger Holes (w/o Inserts): $32</li>
+        <li>Inserts only : $6/finger</li>
+      </ul>
 
       <div class="ball-info">
         <p>Have a ball yet to drill? Bring it to Us! We use the newest Ball Drilling Machine to 
@@ -273,12 +302,14 @@
   
   <div class="ball-display-box" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Resurface</h2>
-    <img src="Images\resurface.png" 
+    <img src="Images/resurface.png" alt="image of resurfacing machine"
     width="300"
     height="300">
-    <p><li>Polish: $15/ball</li></p>
-    <p><li>Cleaning: $10/ball</li></p>
-    <p><li>Resurfacing (w cleaning): $25/ball</li></p>    
+    <ul>
+      <li>Polish: $15/ball</li>
+      <li>Cleaning: $10/ball</li>
+      <li>Resurfacing (w cleaning): $25/ball</li>
+    </ul>
     
     <div class="ball-info">
       <p>Need the ball to skid longer and more backend? Polish! Need to ball to read the lanes earlier and have a smoother
@@ -289,11 +320,13 @@
   
   <div class="ball-display-box" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Oil Extraction</h2>
-    <img src="Images\detox.png" 
+    <img src="Images/detox.png" alt="image of detox machine"
     width="300"
     height="300">
-    <p><li>1 Ball: $20</li></p>
-    <p><li>3 Balls: $60</li></p>
+    <ul>
+      <li>1 Ball: $20</li>
+      <li>3 Balls: $60</li>
+    </ul>
 
     <div class="ball-info">
       <p>Ball reaction lazy? Ball not hooking? Detox Now! We use the newest detox technology to ensure most oil is extracted
@@ -304,13 +337,15 @@
   
   <div class="ball-display-box" onmouseover="showBallInfo(this)" onmouseout="hideBallInfo(this)">
     <h2>Plugging</h2>
-    <img src="Images\plug.png" 
+    <img src="Images/plug.png" alt="image of ball plug"
     width="300"
     height="222">
-    <p><li>1 Finger Hole: $15</li></p>
-    <p><li>2 Finger Holes: $30</li></p>
-    <p><li>Thumb: $20</li></p>
-    <p><li>Fingers + Thumb: $45</li></p>    
+    <ul>
+      <li>1 Finger Hole: $15</li>
+      <li>2 Finger Holes: $30</li>
+      <li>Thumb: $20</li>
+      <li>Fingers + Thumb: $45</li> 
+    </ul>
 
     <div class="ball-info">
       <p>Not satisfied with current ball layout? Plug the holes and we will redrill for you!
@@ -320,20 +355,24 @@
   
   <div class="ball-display-box" >
     <h2>Promotion</h2>
-    <img src="Images\promotion.png" 
+    <img src="Images/promotion.png" alt="image of promotion clipart"
     width="250"
     height="250">
-    <p><li>Resurfacing + Oil Extraction: $38/ball</li></p>
-    <p><li>10% of First Bowling Ball Purchased</li></p>  
+    <ul>
+      <li>Resurfacing + Oil Extraction: $38/ball</li>
+      <li>10% of First Bowling Ball Purchased</li>
+    </ul>
   </div>
 
   <div class="ball-display-box" >
     <h2>Packages</h2>
-    <img src="Images\package.png"
+    <img src="Images/package.png" alt="image of package clipart"
     width="250"
     height="250">
-    <p><li>12 Oil Extraction + 12 Resurfacing Service: $450</li></p>
-    <p><li>1 Reactive Ball + 1 Spare Ball: $500</li></p>
+    <ul>
+      <li>12 Oil Extraction + 12 Resurfacing Service: $450</li>
+      <li>1 Reactive Ball + 1 Spare Ball: $500</li>
+    </ul>
     
   </div>
 
@@ -369,7 +408,7 @@
 
     <div class="sponsored">
         <h2>Sponsored By</h2>
-        <img src="Images\storm.jpg" width="200" height="200">
+        <img src="Images/storm.jpg" alt="image of our sponsor's logo" width="200" height="200">
     </div>
 
     <div class="copyright">
@@ -379,7 +418,7 @@
 
     <div class="footer-logo">
         <h2>Company Logo</h2>
-        <img src="Images\logo.png" width="300" height="300">
+        <img src="Images/logo.png" alt="image of our company logo" width="300" height="300">
     </div>
   </div>
 </footer>

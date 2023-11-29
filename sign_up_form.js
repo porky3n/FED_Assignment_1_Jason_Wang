@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function validateForm() {
-        var contactNumber = document.getElementById("no").value;
-        var email = document.getElementById("e").value;
+        var contactNumber = document.getElementById("contact-number").value;
+        var email = document.getElementById("email").value;
 
         var errorMessages = [];
 
