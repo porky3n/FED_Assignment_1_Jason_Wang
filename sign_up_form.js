@@ -45,6 +45,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function showError(message) {
         errorMessage.innerHTML = message;
         errorMessage.style.display = 'block';
+
+        setTimeout(function () {
+            errorMessage.style.display = 'none';
+        }, 2000);
     }
 
     function showMessage(message, messageType) {
@@ -56,6 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         setTimeout(function () {
             messageBox.style.display = 'none';
-        }, 3000);
+        }, 2000);
     }
 });

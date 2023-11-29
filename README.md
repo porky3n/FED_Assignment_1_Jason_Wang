@@ -83,8 +83,41 @@ Website Contains 4 Main Pages:
 **Shopping Cart**
 1. Go to Equipment Page
 2. Open the shopping cart, try press 'Buy' without adding anything to cart, there will be a Purchase Failed Message.
-3. Add something in the cart, press 'Buy', there will be a Purchase Success Message.
+3. Add something in the cart, press 'Buy', there will be a Purchase Success Message. Then, Cart will be cleared.
 4. Add Multiple of the same items, see Quantity and Price increase accordingly. 
+
+**Responsiveness**
+1. Website is responsive, when width hits below 767px, mobile view is activated.
+
+2. Home Page: 
+-Navigation Bar Tabs switch from horizontal to 2x2 manner.
+-Image will adjust itself accordingly
+-Footer contents will switch from horizontal display to column.
+
+3. About Us Page:
+-WHO ARE WE & HOW WE BEGAN BOX will be centralised and display in a column format in the page.
+-Image will appear below the 2 boxes.
+-OUR FOCUS Boxes will separate and display in a column manner.
+-OUR FOUNDER Boxes will display in a column manner.
+-OUR COACHES Images will shift to below the Description Box in a column manner.
+-Certification Image will appear below the OUR FOUNDER boxes in a column manner too.
+
+4. Coaching Page:
+- Coaching Boxes switch to column display, private coaching box below main coaching box.
+- OUR RATIONALE Box centralised in the page.
+- Coaching Levels Boxes display in column manner.
+- Assessment Box centralised in the page.
+- Sign Up Form width adjusted to fit mobile view
+- Success & Error Message display in the center of the page.
+
+5. Equipment Page
+
+- Filter Panel width adjusted to fit mobile view.
+- Bowling Ball Display in column manner.
+- Ball Services Display in column manner.
+
+
+
 
 
 
