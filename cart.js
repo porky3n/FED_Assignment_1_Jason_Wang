@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
         
         setTimeout(function () {
           purchaseMessage.style.display = 'none';
-        }, 3000);
+        }, 2000);
       }
 
       function displayErrorMessage(message) {
@@ -39,7 +39,7 @@ window.addEventListener('load', function () {
 
         setTimeout(function () {
             errorMessage.style.display = 'none';
-        }, 3000);
+        },2000);
     }
     
   
@@ -140,4 +140,33 @@ document.addEventListener('DOMContentLoaded', function () {
           ball.classList.toggle('hidden', !showBall);
       });
   });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  function sortBalls() {
+    var container = document.querySelector('.bowling-ball-container');
+    var balls = container.querySelectorAll('.ball-display-box');
+    var selectedOption = document.getElementById('price').value;
+
+    var sortedBalls = Array.from(balls).sort(function (a, b) {
+      var priceA = parseFloat(a.getAttribute('price'));
+      var priceB = parseFloat(b.getAttribute('price'));
+
+      if (selectedOption === 'low') {
+        return priceA - priceB;
+      } else if (selectedOption === 'high') {
+        return priceB - priceA;
+      } 
+    });
+
+    container.innerHTML = '';
+
+    sortedBalls.forEach(function (ball) {
+      container.appendChild(ball);
+    });
+  }
+
+  document.getElementById('price').addEventListener('change', sortBalls);
 });
