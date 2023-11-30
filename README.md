@@ -1,7 +1,8 @@
 FED Assignment 1
 Done by: Wang Po Yen Jason IT02
 
-**Introduction**: A comprehensive website for **J Bowling Coaching & Supplies**. This digital platform serves as a one-stop destination for bowling enthusiasts of all skill levels.
+**Introduction**: 
+A comprehensive website for **J Bowling Coaching & Supplies**. This digital platform serves as a one-stop destination for bowling enthusiasts of all skill levels.
 
 The website features how we began this academy, our coaching rationale as well as detailed profiles of our experienced coaching team, which includes Ex National Champions and Current International Bowlers. It also provides an overview of our coaching services, from our rigorous **National Development Programme** for aspiring professional bowlers, to **Private Coaching** sessions tailored for recreational bowlers seeking to enhance their skills or elite players refining their technique. We also showcase our coaching criterias for different levels.
 
@@ -19,6 +20,9 @@ Our design rationale is to create a user-friendly website that caters to bowlers
 
 3. **Equipment Needs**: For bowlers of all levels looking to purchase new bowling balls or maintain their current ones, our "Equipment Page" is a must-visit. It showcases a variety of bowling balls, able to sort by category, and maintenance services. Also, keep an eye out for our promotional packages for great deals!
 
+**Link to Figma Wireframes**
+https://www.figma.com/file/YZemFvqNTVJEG6YOGG9vkM/FED-Assg-1-Wireframe-(Final)?type=design&node-id=0%3A1&mode=design&t=kVtEIL05xV9tV7KD-1
+
 
 **Features**
 
@@ -29,7 +33,7 @@ Website Contains 4 Main Pages:
 - 2 Home Page Images
 - Footer (3 Tabs, Contact Us, Join The Community, Sponsored By, Company Logo)
 
-**Page 2: About Us Page (No JavaScript)**
+**Page 2: About Us Page**
 - Navigation Bar
 - WHO ARE WE?
 - HOW WE BEGAN?
@@ -54,13 +58,13 @@ Website Contains 4 Main Pages:
 **Page 4: Equipment Page**
 - Navigation Bar
 
-- **Shopping Cart** The shopping cart is able to expand and close, when open, it displays the items added to cart in a table (Product Name, Quantity, Price). As more items are added, the quantity, price and total price will be updated in the cart. There is also a Buy Button, when pressed, a message saying Purchase Successful will be shown.
+- **Shopping Cart** The shopping cart is able to expand and close, when open, it displays the items added to cart in a table (Product Name, Quantity, Price). As more items are added, the quantity, price and total price will be updated in the cart. There is also a Buy Button, when pressed, a message saying Purchase Successful will be shown and cart clears. When you refresh the page, the cart contents will not be cleared until your press clear cart or buy. This is due to items being added to local storage when added to cart and deleted from local storage when press buy or clear cart.
 
 - **Filter Panel** The filter panel is able to filter balls based on categories as well as sort them based on price High to Low or vice versa. When filtered, the irrelevant balls will be hidden in the page.
 
 - **Bowling Balls Display** For each bowling ball display box, when mouse hovers over, a small box will appear showing more statistics about the ball. Each ball also has an "Add to Cart" Button, when pressed, the button changes to "Item Added to Cart" for 2s before it changes back. The shopping cart will update accordingly as well.
 
-- Bowling Ball Maintainence Services
+- **Bowling Ball Maintainence Services** Hover to see hidden information.
 
 - Footer
 
@@ -82,11 +86,12 @@ Website Contains 4 Main Pages:
 
 **Shopping Cart**
 1. Go to Equipment Page
-2. Open the shopping cart, try press 'Buy' without adding anything to cart, there will be a Purchase Failed Message.
+2. Open the shopping cart, try press 'Buy' without adding anything to cart, there will be a **Purchase Failed Message.
 3. Add something in the cart, press 'Buy', there will be a Purchase Success Message. Then, Cart will be cleared.
-4. Add Multiple of the same items, see Quantity and Price increase accordingly. 
+4. Add multiple of the same items, see Quantity and Price increase accordingly. 
+5. Try adding something to the cart and refresh the page, notice cart items remains.
 
-**Responsiveness**
+**Responsiveness (Mobile View)**
 1. Website is responsive, when width hits below 767px, mobile view is activated.
 
 2. Home Page: 
@@ -117,12 +122,12 @@ Website Contains 4 Main Pages:
 - Ball Services Display in column manner.
 
 
-
 **Credits**
-Content:
+
+**Content**:
 Did not copy any content.
 
-Media:
+**Media**:
 I took images from these links:
 https://www.stormbowling.com/dna-bbmvna12
 https://www.stormbowling.com/virtual-energy-blackout-bbmvek12
@@ -148,6 +153,7 @@ https://www.hiclipart.com/free-transparent-background-png-clipart-jmkwd
 
 
 
-Acknowledgements:
-I received inspiration from https://www.stormbowling.com/
+**Acknowledgements**:
+-I received inspiration from https://www.stormbowling.com/
+-Help from ChatGPT for advanced JS functions. (Understood Code)
 

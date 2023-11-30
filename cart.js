@@ -1,5 +1,4 @@
 /*Cart*/
-
 window.addEventListener('load', function () {
   // Event listener for clicking cart icon
   document.getElementById('cart-icon').addEventListener('click', function () {
@@ -156,7 +155,6 @@ window.addEventListener('load', function () {
   }
 });
 
-
 /*Close Cart*/
 document.addEventListener('DOMContentLoaded', function () {
     //Event listener for clicking close cart button//
@@ -166,9 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
 /*Hidden Details*/
-
 function showBallInfo(box) {
     //Retrieve hidden ball information//
     const ballInfo = box.querySelector('.ball-info');
@@ -185,7 +181,6 @@ function hideBallInfo(box) {
 }
 
 /*Filter*/
-
 document.addEventListener('DOMContentLoaded', function () {
   // Event listener for changes in the 'category' dropdown
   document.getElementById('category').addEventListener('change', function () {

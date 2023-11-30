@@ -188,6 +188,10 @@ body {
   color: white;
 }
 
+.address a{
+  color:white;
+}
+
 /*Home Page Images*/
 .home-page-images {
   display: flex;
@@ -835,7 +839,6 @@ body {
     font-size: 10px; 
   }
 
-
   ul.pages {
     flex-wrap: wrap; 
     justify-content: center; 
@@ -888,14 +891,15 @@ body {
   }
 
   .address {
-    position: static; /* Remove absolute positioning */
-    text-align: center; /* Center the entire content */
+    position: static; 
+    text-align: center; 
     padding: 10px;
   }
 
   .address h2 {
-    text-align: center; /* Center the heading */
+    text-align: center; 
   }
+
   /*AboutUs.html*/
 
   /*Introduction*/
@@ -990,8 +994,8 @@ body {
   }
 
   .big-coaching-box{
-    flex-basis: 100% ;
-    margin: 0 10px; 
+    flex-basis: 100%; 
+    font-size: 14px; 
   }
 
   .private-coaching-small-box{
@@ -999,6 +1003,12 @@ body {
     width:90%;
     margin-top: 20px;
 }    
+
+  .our-rationale-image-box {
+  margin: 0 auto;  
+  margin-right: 15px; 
+  margin-bottom: 210px;
+}
 
   /*Coaching Levels*/
 
@@ -1022,7 +1032,7 @@ body {
   form {
     grid-template-columns: 1fr; 
     width: 90%; 
-    margin: 40px auto;  
+    margin: 50px auto; 
   }
 
   .form-centralise {
