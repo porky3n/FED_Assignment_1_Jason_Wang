@@ -22,6 +22,12 @@ window.addEventListener('load', function () {
     }
   });
 
+  document.querySelector('.clear-cart').addEventListener('click', function () {
+    clearShoppingCart();
+    // Remove cart data from local storage
+    localStorage.removeItem('cart');
+  });
+  
   // Function to display purchase success message
   function displayPurchaseMessage(message) {
     var purchaseMessage = document.getElementById('product-purchase-message');

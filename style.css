@@ -697,6 +697,21 @@ form input[type="submit"] {
   border-radius: 3px;
 }
 
+.clear-cart {
+  background-color: #fff;
+  color: #f88f44;
+  border: 1px solid #f17115;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 150px;
+}
+
+.clear-cart:hover {
+  background-color: #f88f44;
+  color: #fff;
+}
+
 #product-purchase-message {
   display: none;
   background-color: #4CAF50;
@@ -872,6 +887,15 @@ body {
     text-align: center;
   }
 
+  .address {
+    position: static; /* Remove absolute positioning */
+    text-align: center; /* Center the entire content */
+    padding: 10px;
+  }
+
+  .address h2 {
+    text-align: center; /* Center the heading */
+  }
   /*AboutUs.html*/
 
   /*Introduction*/
