@@ -338,7 +338,7 @@ p {
 
 .cert-button {
   display: block;
-  margin-right: 30px; 
+  margin: 0 auto; 
   padding: 10px 20px;
   font-size: 16px;
 }
@@ -391,7 +391,6 @@ p {
   background-color: #ecf0f1;
   box-sizing: border-box; 
 }
-
 
 /*Coaching.html*/
 
@@ -723,6 +722,7 @@ form input[type="submit"] {
   cursor: pointer;
   border-radius: 3px;
   margin-right: 150px;
+  float: left; 
 }
 
 .clear-cart:hover {
@@ -882,6 +882,7 @@ body {
 
   .contact-info li {
     margin-bottom: 10px;
+    margin-right: 22px;
   }
 
   .community a {
@@ -993,6 +994,10 @@ body {
     padding: 5px;
   }
 
+  .image-box p {
+    max-width: 100%; 
+  }
+
   /*Coaching.html*/
 
   /*Coaching Details*/
@@ -1050,7 +1055,7 @@ body {
   form {
     grid-template-columns: 1fr; 
     width: 90%; 
-    margin: 40px auto;  
+    margin: 60px auto;  
   }
 
   .form-centralise {
@@ -1058,6 +1063,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 40vh;
+    min-height: 300px;
   }
 
   .form-heading{
