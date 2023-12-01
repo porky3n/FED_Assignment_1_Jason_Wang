@@ -132,7 +132,6 @@ window.addEventListener('load', function () {
     localStorage.setItem('cart', JSON.stringify(cartData));
   }
 
-
   // Function to clear shopping cart and local storage
   function clearShoppingCart() {
     var cartItems = document.getElementById('cart-items');
@@ -145,7 +144,7 @@ window.addEventListener('load', function () {
     localStorage.removeItem('cart');
   }
 
-  // On page load, check if there are items in local storage and add them to the cart
+  // On page load, check if any items in local storage and add them back to the cart
   var storedCart = localStorage.getItem('cart');
   if (storedCart) {
     var cartData = JSON.parse(storedCart);

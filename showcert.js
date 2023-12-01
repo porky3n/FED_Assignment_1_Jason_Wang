@@ -1,4 +1,3 @@
-
 //Function to show certificate//
 function toggleCertification() {
     // Get the certification image element by its ID
